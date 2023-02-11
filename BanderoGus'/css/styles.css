@@ -1,0 +1,302 @@
+ html,
+ body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ .wrapper {
+     width: 1170px;
+     margin: 0 auto;
+     height: 100%;
+     position: relative;
+ }
+ .main-page{
+    background: linear-gradient(269.82deg, #A5DEFF 1.74%, #FCFEFF 99.82%);
+    height: 100%;
+    display: flex ;
+    flex-direction: column ;
+}
+
+header {
+    margin-top: 34px;
+    margin-bottom: 58px;
+    display: flex ;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.logo-text {
+    margin-left: 18px;
+}
+
+.banderogus-container {
+    background: #FFFFFF;
+    padding: 60px 56px;
+    align-self: center;
+
+}
+ .banderogus-title {
+    color: #181A1C;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+ }
+
+ .banderogus-greeting {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181A1C;
+    margin-bottom: 16px;
+ }
+
+ .banderogus-start-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FF6B0A;
+    margin-bottom: 48px;
+ }
+
+ .banderogus-descr {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #181A1C;
+margin-top: 24px;
+margin-bottom: 48px;
+ }
+
+ .banderogus-launch {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+ }
+
+ .banderogus-image {
+    align-self: flex-end;
+ }
+
+.main-page-row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+ }
+
+ .gus-facts {
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .gus-title {
+    font-weight: 600;
+font-size: 48px;
+line-height: 24px;
+color: #181A1C;
+margin: 16px 0;
+text-align: center;
+ }
+
+ .gus-descr {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #181A1C;
+text-align: center;
+width: 875px;
+ }
+
+ .gus-facts-container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+
+ }
+
+ .gus-facts-item {
+    width: 33%;
+ }
+
+ .gus-fact-title {
+    font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+color: #181A1C;
+margin: 12px 0 32px 0;
+ }
+
+ .gus-fact-descr {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #181A1C;
+width: 280px;
+
+ }
+
+.victory-bgd {
+   width: 1170px;
+   background: linear-gradient(269.82deg, #BBE6FF 1.74%, #FCFEFF 99.82%);
+   padding: 72px 0;
+   margin-bottom: 72px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.victory-footer {
+   display: flex;
+   justify-content: center;
+
+}
+
+.victory-title {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 24px;
+   color: #181A1C;
+   margin: 16px 0;
+
+}
+
+.victory-descr {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #181A1C;
+   width: 875px;
+   text-align: center;
+
+} 
+
+.modal-bgd {
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   top:0;
+   left: 0;
+   background: rgb(27 29 31 / 70%);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   transition: all 0.3s ease-in-out;
+   opacity: 0;
+   pointer-events: none;
+
+}
+.modal-form-container {
+   padding: 32px 92px 60px 92px;
+   background: #FFFF;
+   position: relative;
+}
+.modal-form {
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ 
+}
+
+.modal-form-title {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 24px;
+   display: flex;
+   align-items: center;
+   color: #181A1C;
+   margin: 32px 0 12px 0;
+
+
+}
+
+.modal-form-descr {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #181A1C;
+   margin-bottom: 24px;
+
+}
+
+.modal-form-field {
+width: 100%;
+display: flex;
+flex-direction: column;
+margin-bottom: 16px;
+
+
+}
+
+
+.model-field-name {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   margin-bottom: 8px;
+   color: #181A1C;
+   
+}
+
+.model-field-input {
+   height: 48px;
+   border: 1px solid #005BBB;
+   border-radius: 8px;
+   box-sizing: border-box;
+   font-weight: 400;
+   font-size: 16px;
+   color: #181A1C;
+   padding: 4px 8px;
+
+}
+
+.modal-form-btn {
+   background: #FF6B0A;
+   border-radius: 8px;
+   padding: 12px 24px;
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   cursor: pointer;
+   border: 0;
+   margin-top: 24px;
+
+}
+
+.close-btn {
+position: absolute;
+top: 28px;
+right: 28px;
+font-size: 14px;
+color:  #181A1C;
+
+}
+
+.modal-descr {
+   margin-bottom: 0;
+}
+
+.modal-active {
+   opacity: 1;
+   pointer-events: all;
+}
+
+.gus-anim {
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   margin-bottom: auto;
+   margin-top: auto;
+   width: 100%;
+   z-index: 2;
+   pointer-events: none;
+}
